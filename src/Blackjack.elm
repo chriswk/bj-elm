@@ -301,7 +301,6 @@ deckView deck =
     in
     div []
         [ div [] [ text "Deck" ]
-        , div [] [ viewHand deck ]
         , div [] [ text ("Size of deck: " ++ sizeStr) ]
         ]
 
